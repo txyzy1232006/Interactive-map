@@ -1,0 +1,125 @@
+/* Styles go here */
+
+#textbox {
+  position: absolute;
+  top: 220px;
+  left: 60px;
+  width: 120px;
+  height: 200px;
+  border-style: ridge;
+  text-align: center;
+ /*  margin-left: auto;
+ margin-right: auto; */
+}
+
+#mapTitle {
+  width: 610px;
+  text-align: center;
+  font-size: 160%;
+  font-weight: bold;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+}
+
+#legend {
+  font-size: 75%;
+  position: absolute;
+  top: 130px;
+  left: 60px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tit {
+  margin-top: 30px;
+  font-size: 120%;
+  font-weight: bold;
+}
+
+h1 {
+  margin-bottom: 0;
+  text-align: center;
+}
+
+#container {
+  width: 1300px;
+  /* margin-left: auto;
+  margin-right: auto; */
+}
+
+#header {
+  background-color: #87CEFA;
+}
+
+#map {
+  background-color: #EEEEEE;
+  height: 700px;
+  width: 610px;
+  float: left;
+}
+
+#district {
+  float: left;
+  width: 200px;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold
+}
+
+#disNum {
+  float: left;
+  width: 50px;
+  font-size: 150%;
+  font-style: italic;
+}
+
+#information {
+  width: 690px;
+  height: 30px;
+  float: left;
+  background-color: #F0F8FF;
+}
+
+#borough {
+  float: left;
+  width: 200px;
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold
+}
+
+#bName {
+  float: left;
+  width: 50px;
+  font-size: 150%;
+  font-style: italic
+}
+
+.title {
+  width: 690px;
+  height: 30px;
+  float: left;
+  /* background-color: #99ffcc; */
+  text-align: center;
+  font-size: 150%;
+  font-weight: bold
+}
+
+#footer {
+  background-color: #87CEFA;
+  clear: both;
+  text-align: center;
+}
+
+#chart1 {
+  width: 690px;
+  height: 300px;
+  float: left;
+}
+
+#chart2 {
+  width: 690px;
+  height: 300px;
+  float: left;
+}

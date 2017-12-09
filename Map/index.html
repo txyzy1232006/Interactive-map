@@ -1,0 +1,83 @@
+<html>
+  <head>
+  <meta charset="utf-8">
+
+  <style>
+  
+  </style>
+
+  <script src="https://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="https://d3js.org/topojson.v1.min.js"></script>
+  <script src="https://d3js.org/queue.v1.min.js"></script>
+  <!-- <script src="https://d3js.org/d3-scale-chromatic.v0.0.js"></script> -->
+  <script data-require="c3js@*" data-semver="0.4.10" src="https://rawgit.com/masayuki0812/c3/master/c3.js"></script>
+  <link data-require="c3js@*" data-semver="0.4.10" rel="stylesheet" href="https://rawgit.com/masayuki0812/c3/master/c3.css" />
+  <script src="script.js"></script>
+  <link rel="stylesheet" href="style.css" />
+  </head>
+   
+  
+  <body>
+  <div id="container" >
+  <div id="header"><h1 id="h1" >NYC School District</h1></div>
+  
+  <div id="map">
+    
+    
+  </div>
+  
+  <div id="information">
+    <div id="district">District: &nbsp;</div>
+    
+    <div id="disNum">
+    <label>
+      <span id="defaultDis"></span>
+      <span id="tooltip"></span>
+    </label>
+    </div>
+    
+    <div id="borough">Borough: &nbsp;</div>
+    
+    <div id="bName">
+    <label>
+      <span id="defaultB"></span>
+      <span id="tooltipBor"></span>
+    </label>
+    </div>
+  </div>
+  
+  <div class="title">Composition of Cohort</div>
+  <div id = "chart1"></div>
+  <!-- <div class="chart" id="graduation">
+  TODO: Draw Chart1
+  </div> -->
+  <hr>
+  <div class="title">Composition of Graduation</div>
+  <div id = "chart2"></div>
+  <!-- <div class="chart">Chart2
+  TODO: Draw Chart2
+  </div> -->
+  
+  <div id="footer"> Copyright © EDA Square</div>
+
+  </div>
+  
+  <div id = "mapTitle">Graduation Rate HeatMap (2012)</div>
+  <div id = "legend"></div>
+  <div id = "textbox">
+      <br>
+      <span class = "tit">District:</span>
+      <br>
+      <span id = "Dis"></span>
+      <br>
+      <span class = "tit">Cohort:</span>
+      <br>
+      <span id = "Cohort"></span>
+      <br>
+      <span class = "tit">Graduation Rate:</span>
+      <br>
+      <span id = "Grad"></span>
+  </div>
+  </body>
+
+</html>
